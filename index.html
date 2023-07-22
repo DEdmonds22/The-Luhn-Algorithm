@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Luhn Algorithm Validator</title>
+</head>
+<body>
+    <main>
+        <h1>The Luhn Algorithm Validator</h1>
+        <form id="form">
+            <label for="card-number">Please enter your card number: </label>
+            <input type="text" id="card-number" name="card-number" placeholder="Card Number">
+            <button id="submitBtn">Submit</button>
+        </form>
+    </main>
+
+    <div id="popUp">
+        <div id="valid">
+            <h2>Valid Card</h2>
+            <p>Your card is Valid. Thank you for your entry!</p>
+        </div>
+
+        <div id="inValid">
+            <h2>Invalid Card</h2>
+            <p>Your card is invalid. Please try again.</p>
+        </div>
+    </div>
+</body>
+</html>
